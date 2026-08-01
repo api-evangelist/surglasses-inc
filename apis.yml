@@ -1,7 +1,24 @@
 aid: surglasses-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/surglasses-inc.png
 name: Surglasses Inc.
-description: Surglasses Inc. is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Surglasses Inc. (SURGLASSES) is a medical technology manufacturer of augmented
+  reality surgical guidance systems and medical education products. Its portfolio includes
+  AR-guided surgical navigation for orthopedic, spine, and neurosurgery procedures (the
+  Foresee-X AR surgical glasses), 3D computer surgical navigation and planning software,
+  and the Asclepius AI Table and Virtual Dissection Table for anatomy, radiology, and
+  histopathology education. Backed by 500 Global. The company operates as a B2B medical-device
+  manufacturer and publishes no public developer, API, or SDK surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/surglasses-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Medical Devices
+- Augmented Reality
+- Surgical Navigation
+- Healthcare
+- Medical Education
+- Health Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/surglasses-inc-domain-security.yml
 - type: Website
   url: https://surglasses.com
+- type: PrivacyPolicy
+  url: https://surglasses.com/en/privacy-policy/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
