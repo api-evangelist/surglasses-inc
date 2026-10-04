@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/surglasses-inc.png
-name: Surglasses Inc.
+name: Surglasses
 description: Surglasses Inc. (SURGLASSES) is a medical technology manufacturer of augmented
   reality surgical guidance systems and medical education products. Its portfolio includes
   AR-guided surgical navigation for orthopedic, spine, and neurosurgery procedures (the
@@ -66,3 +66,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 2
   pass: local-v1
+x-legal-name: Surglasses Inc.
